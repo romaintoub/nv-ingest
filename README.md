@@ -81,7 +81,7 @@ If preferred, you can also [start services one by one](docs/deployment.md), or r
 2. Change directory to the cloned repo
 `cd nv-ingest`.
 
-3. [Generate API keys](docs/ngc-api-key.md) and authenticate with NGC with the `docker login` command:
+3. [Generate API keys](docs/user-guide/developer-guide/ngc-api-key.md) and authenticate with NGC with the `docker login` command:
 ```shell
 # This is required to access pre-built containers and NIM microservices
 $ docker login nvcr.io
